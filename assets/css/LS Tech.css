@@ -87,6 +87,7 @@ body {
   font-family: 'Noto Sans KR';
   color: #222;
 }
+
 /*header*/
 
 .nav {
@@ -395,16 +396,20 @@ header {
   padding: 0 276px;
 }
 
-.sec-a {
+.sec-a p {
   margin-top: 43px;
 }
 
-.personal {
-  display: flex; /* Flexbox 사용 */
-  flex-direction: row;
-  align-items: center; /* 수직 중앙 정렬 */
+.info{
+  display: flex;
+  margin: auto;
 }
 
-.text-box {
-  margin: 0 10px; /* 각 항목 간의 간격 설정 */
+.info a{
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font size: 16px;
+  margin-left:40px;
+  margin-top: 25px;
 }
